@@ -9,7 +9,7 @@ package org.example;
         
         @Override
         public void tocar() {
-            System.out.println("Soando uma bela melodia no " + nome + "com " + numeroCordas + "cordas");
+            System.out.println("Soando uma bela melodia no " + nome + " com " + numeroCordas + " cordas");
         }
         @Override
         public void afinar () {
