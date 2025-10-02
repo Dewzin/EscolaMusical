@@ -9,7 +9,7 @@ public class Violao extends Instrumentos{
 
     @Override
     public void tocar() {
-        System.out.println("Toca acordes acústicos " + nome + "com " + numeroCordas + "cordas");
+        System.out.println("Toca acordes acústicos " + nome + " com " + numeroCordas + " cordas");
     }
     @Override
     public void afinar () {
