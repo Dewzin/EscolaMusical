@@ -17,6 +17,6 @@ public abstract class Instrumentos {
 
     public void MostrarInformacoes() {
         System.out.println("Instrumento: " + nome);
-        System.out.println("Material" + material);
+        System.out.println("Material: " + material);
     }
 }
