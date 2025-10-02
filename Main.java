@@ -8,7 +8,7 @@ public class Main {
         orquestra[0] = new Piano("Piano", "Madeira", 230);
         orquestra[1] = new Violao("Violão", "Madeira", 6);
         orquestra[2] = new Violino("Violino", "Madeira", 4);
-        orquestra[3] = new Bateria("Bateria", "Metal", 4);
+        orquestra[3] = new Bateria("Bateria", "Metal", 6);
 
         System.out.println("Informações dos instrumentos:");
         for (Instrumentos instrumento : orquestra) {
