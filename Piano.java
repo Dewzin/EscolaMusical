@@ -16,4 +16,9 @@ package org.example;
             super.afinar();
             System.out.println("ajustando as cordas internas do piano");
         }
+        @Override
+        public void mostrarInformacoes() {
+            super.mostrarInformacoes();
+            System.out.println("Número de cordas: " + numeroCordas);
+        }
 }
