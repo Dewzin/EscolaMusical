@@ -16,11 +16,11 @@ public class Violino extends Instrumentos {
             super.afinar();
             System.out.println("ajustando as cordas " + numeroCordas);
         }
-    @Override
-    public void MostrarInformacoes () {
-        super.MostrarInformacoes ();
-        System.out.println("Numero de cordas: " + numeroCordas);
+        @Override
+        public void MostrarInformacoes () {
+            super.MostrarInformacoes ();
+            System.out.println("Numero de cordas: " + numeroCordas);
 
-    }
+        }
 
     }
