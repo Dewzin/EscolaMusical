@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println("Informações dos instrumentos:");
         for (Instrumentos instrumento : orquestra) {
-            instrumento.mostrarInformacoes();
+            instrumento.MostrarInformacoes();
         }
         
         System.out.println("Afinando os instrumentos...");
