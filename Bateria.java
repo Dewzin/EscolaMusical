@@ -9,7 +9,7 @@ public class Bateria extends Instrumentos {
     
     @Override
     public void tocar() {
-        System.out.println("Um ritmo animado " + nome + "com " + numeroPecas + "peças");
+        System.out.println("Um ritmo animado " + nome + " com " + numeroPecas + " peças");
     }
     
     @Override
