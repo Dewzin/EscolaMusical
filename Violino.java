@@ -9,7 +9,7 @@ public class Violino extends Instrumentos {
 
         @Override
         public void tocar() {
-            System.out.println("Emite notas agudas e vibrantes " + nome + "com " + numeroCordas + "cordas");
+            System.out.println("Emite notas agudas e vibrantes " + nome + " com " + numeroCordas + " cordas");
         }
         @Override
         public void afinar () {
